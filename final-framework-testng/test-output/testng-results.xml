@@ -2,24 +2,46 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29858" started-at="2019-06-25T12:25:07Z" finished-at="2019-06-25T12:25:36Z">
+  <suite name="Default suite" duration-ms="37564" started-at="2019-07-11T15:24:31Z" finished-at="2019-07-11T15:25:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29858" started-at="2019-06-25T12:25:07Z" finished-at="2019-06-25T12:25:36Z">
-      <class name="com.training.sanity.tests.EditProfile">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.EditProfile@224edc67]" name="setUpBeforeClass" is-config="true" duration-ms="8176" started-at="2019-06-25T17:55:07Z" finished-at="2019-06-25T17:55:15Z">
+    <test name="Default test" duration-ms="37564" started-at="2019-07-11T15:24:31Z" finished-at="2019-07-11T15:25:09Z">
+      <class name="com.training.regression.tests.LoginDBTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginDBTest@14acaea5]" name="setUpBeforeClass" is-config="true" duration-ms="17" started-at="2019-07-11T20:54:31Z" finished-at="2019-07-11T20:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.EditProfile@224edc67]" name="validLoginTest" duration-ms="19745" started-at="2019-06-25T17:55:15Z" finished-at="2019-06-25T17:55:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginDBTest@14acaea5]" name="setUp" is-config="true" duration-ms="10165" started-at="2019-07-11T20:54:32Z" finished-at="2019-07-11T20:54:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfile@224edc67]" name="tearDown" is-config="true" duration-ms="1909" started-at="2019-06-25T17:55:34Z" finished-at="2019-06-25T17:55:36Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginDBTest@14acaea5]" name="loginDBTest" duration-ms="26952" started-at="2019-07-11T20:54:42Z" data-provider="db-inputs" finished-at="2019-07-11T20:55:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mehadi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.EditProfile -->
+        </test-method> <!-- loginDBTest -->
+      </class> <!-- com.training.regression.tests.LoginDBTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
